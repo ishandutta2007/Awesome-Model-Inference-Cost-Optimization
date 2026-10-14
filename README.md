@@ -2,7 +2,7 @@
 
 # Awesome-Model-Inference-Cost-Optimization
 
-# Top Model Inference Cost Optimization Ecosystem
+## Top Model Inference Cost Optimization Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Intelligent Routing, Cascade Fallback & Compute Cost Reduction*  
