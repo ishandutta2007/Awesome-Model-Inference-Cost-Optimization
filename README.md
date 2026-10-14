@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Model-Inference-Cost-Optimization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Model-Inference-Cost-Optimization?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Model-Inference-Cost-Optimization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Model-Inference-Cost-Optimization?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Model-Inference-Cost-Optimization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Model-Inference-Cost-Optimization?style=flat-square&color=blue" alt="Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Model-Inference-Cost-Optimization/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Model-Inference-Cost-Optimization/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
@@ -94,77 +94,77 @@ The table below lists leading managed inference platforms and routing layers, so
 
 ## 💻 Open-Source Inference Infrastructure & Frameworks
 
-Open-source tools give engineering teams full control over model weights, private VPC hosting, and custom routing logic. Below are the premier open-source repositories, sorted in **descending order by GitHub star count**.
+Open-source tools give engineering teams full control over model weights, private VPC hosting, and custom routing logic. Below are the premier open-source repositories, sorted in **descending order by GitHub Stars_Count**.
 
-1. **[Ollama](https://github.com/ollama/ollama)** [![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)  
+1. **[Ollama](https://github.com/ollama/ollama)** [![GitHub_Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)  
    *Get up and running with Llama 3, Mistral, Gemma, and DeepSeek locally.*  
    The definitive local runtime for developer environments and Tier-3 cascade routing. Eliminates external API costs by serving quantized models locally on Apple Silicon, AMD, and NVIDIA hardware with zero external dependencies.
 
-2. **[llama.cpp](https://github.com/ggerganov/llama.cpp)** [![GitHub stars](https://img.shields.io/github/stars/ggerganov/llama.cpp?style=social&color=white)](https://github.com/ggerganov/llama.cpp/stargazers)  
+2. **[llama.cpp](https://github.com/ggerganov/llama.cpp)** [![GitHub_Stars](https://img.shields.io/github/stars/ggerganov/llama.cpp?style=social&color=white)](https://github.com/ggerganov/llama.cpp/stargazers)  
    *LLM inference in C/C++ with minimal memory footprint.*  
    Pioneered 2-bit, 4-bit, 5-bit, 6-bit, and 8-bit integer quantization (GGUF). Runs large models on consumer CPUs, Apple unified memory, and mixed GPU hardware, radically lowering the hardware barrier for inference.
 
-3. **[vLLM](https://github.com/vllm-project/vllm)** [![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
+3. **[vLLM](https://github.com/vllm-project/vllm)** [![GitHub_Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)  
    *A high-throughput and memory-efficient LLM serving engine.*  
    Invented **PagedAttention** to virtually eliminate KV cache memory fragmentation. Delivers continuous batching, chunked prefill, FP8/FP4 quantization, and speculative decoding. Achieves ~$0.20/1M tokens on 4×H100 clusters.
 
-4. **[LiteLLM](https://github.com/BerriAI/litellm)** [![GitHub stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers)  
+4. **[LiteLLM](https://github.com/BerriAI/litellm)** [![GitHub_Stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers)  
    *Unified OpenAI-compatible proxy gateway for 100+ LLM APIs.*  
    Provides virtual API keys, team-based budget caps, spend tracking, dynamic load balancing, cross-provider fallbacks, and semantic caching. Delivers an ultra-lean 8ms P95 latency overhead at 1,000 RPS.
 
-5. **[SGLang](https://github.com/sgl-project/sglang)** [![GitHub stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers)  
+5. **[SGLang](https://github.com/sgl-project/sglang)** [![GitHub_Stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers)  
    *Fast serving framework for large language models and vision-language models.*  
    Introduces **RadixAttention** for automatic KV cache reuse across complex multi-turn chats, agent loops, few-shot templates, and structured JSON decoding. Speeds up complex prompt workflows by 3x–5x.
 
-6. **[Langfuse](https://github.com/langfuse/langfuse)** [![GitHub stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers)  
+6. **[Langfuse](https://github.com/langfuse/langfuse)** [![GitHub_Stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers)  
    *Open-source LLM engineering platform for observability, tracing, and token cost attribution.*  
    Pinpoints expensive prompts, tracks token consumption per user/feature, provides latency breakdown, and monitors model drift across deployments.
 
-7. **[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)** [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social&color=white)](https://github.com/NVIDIA/TensorRT-LLM/stargazers)  
+7. **[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)** [![GitHub_Stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social&color=white)](https://github.com/NVIDIA/TensorRT-LLM/stargazers)  
    *NVIDIA's compiler and runtime for peak LLM inference on NVIDIA GPUs.*  
    Leverages custom fused multi-head attention kernels, FP8 execution on Hopper/Blackwell, in-flight batching, and tensor parallelism to deliver the lowest cost-per-token on enterprise NVIDIA hardware.
 
-8. **[Portkey Gateway](https://github.com/Portkey-AI/gateway)** [![GitHub stars](https://img.shields.io/github/stars/Portkey-AI/gateway?style=social&color=white)](https://github.com/Portkey-AI/gateway/stargazers)  
+8. **[Portkey Gateway](https://github.com/Portkey-AI/gateway)** [![GitHub_Stars](https://img.shields.io/github/stars/Portkey-AI/gateway?style=social&color=white)](https://github.com/Portkey-AI/gateway/stargazers)  
    *Ultra-fast, production-grade AI gateway engine in TypeScript.*  
    Processes requests with sub-millisecond overhead. Offers automated retries with backoff, canary deployments, model fallback trees, custom load-balancing heuristics, and plugin guardrails.
 
-9. **[Triton Inference Server](https://github.com/triton-inference-server/server)** [![GitHub stars](https://img.shields.io/github/stars/triton-inference-server/server?style=social&color=white)](https://github.com/triton-inference-server/server/stargazers)  
+9. **[Triton Inference Server](https://github.com/triton-inference-server/server)** [![GitHub_Stars](https://img.shields.io/github/stars/triton-inference-server/server?style=social&color=white)](https://github.com/triton-inference-server/server/stargazers)  
    *Multi-framework, enterprise-grade AI model serving platform.*  
    Maximizes GPU utilization across simultaneous heterogeneous models (LLMs, vision, embedding, tabular) with dynamic batching, model pipelining, and concurrent model execution.
 
-10. **[Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference)** [![GitHub stars](https://img.shields.io/github/stars/huggingface/text-generation-inference?style=social&color=white)](https://github.com/huggingface/text-generation-inference/stargazers)  
+10. **[Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference)** [![GitHub_Stars](https://img.shields.io/github/stars/huggingface/text-generation-inference?style=social&color=white)](https://github.com/huggingface/text-generation-inference/stargazers)  
     *Hugging Face's purpose-built toolkit for deploying LLMs in production.*  
     Features tensor parallelism, token streaming, continuous batching, watermarking, optimized FlashAttention-2 kernels, and native safetensors weight loading.
 
-11. **[Xinference](https://github.com/xorbitsai/inference)** [![GitHub stars](https://img.shields.io/github/stars/xorbitsai/inference?style=social&color=white)](https://github.com/xorbitsai/inference/stargazers)  
+11. **[Xinference](https://github.com/xorbitsai/inference)** [![GitHub_Stars](https://img.shields.io/github/stars/xorbitsai/inference?style=social&color=white)](https://github.com/xorbitsai/inference/stargazers)  
     *Distributed inference library for LLMs, speech recognition, and multimodal architectures.*  
     Automates multi-node GPU cluster allocation, model migration, and dynamic replica scaling to curtail idle cloud GPU expenses.
 
-12. **[GPTCache](https://github.com/zilliztech/GPTCache)** [![GitHub stars](https://img.shields.io/github/stars/zilliztech/GPTCache?style=social&color=white)](https://github.com/zilliztech/GPTCache/stargazers)  
+12. **[GPTCache](https://github.com/zilliztech/GPTCache)** [![GitHub_Stars](https://img.shields.io/github/stars/zilliztech/GPTCache?style=social&color=white)](https://github.com/zilliztech/GPTCache/stargazers)  
     *Semantic cache framework to reduce LLM query costs and latency.*  
     Vectorizes prompt queries and retrieves cached outputs for semantically identical questions, cutting upstream LLM API bills by 40%–80% for repetitive customer workloads.
 
-13. **[LLMLingua](https://github.com/microsoft/LLMLingua)** [![GitHub stars](https://img.shields.io/github/stars/microsoft/LLMLingua?style=social&color=white)](https://github.com/microsoft/LLMLingua/stargazers)  
+13. **[LLMLingua](https://github.com/microsoft/LLMLingua)** [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/LLMLingua?style=social&color=white)](https://github.com/microsoft/LLMLingua/stargazers)  
     *Prompt compression library developed by Microsoft Research.*  
     Compacts prompt tokens by up to 20x using small language model perplexity scoring with minimal quality degradation, dramatically slashing prompt input token costs in long-context and RAG tasks.
 
-14. **[Helicone](https://github.com/Helicone/helicone)** [![GitHub stars](https://img.shields.io/github/stars/Helicone/helicone?style=social&color=white)](https://github.com/Helicone/helicone/stargazers)  
+14. **[Helicone](https://github.com/Helicone/helicone)** [![GitHub_Stars](https://img.shields.io/github/stars/Helicone/helicone?style=social&color=white)](https://github.com/Helicone/helicone/stargazers)  
     *Open-source LLM observability platform with integrated proxy.*  
     Provides one-line integration for prompt caching, customer rate limiting, anomaly and cost spike alerts, and detailed token-level financial accounting.
 
-15. **[RouteLLM](https://github.com/lm-sys/RouteLLM)** [![GitHub stars](https://img.shields.io/github/stars/lm-sys/RouteLLM?style=social&color=white)](https://github.com/lm-sys/RouteLLM/stargazers)  
+15. **[RouteLLM](https://github.com/lm-sys/RouteLLM)** [![GitHub_Stars](https://img.shields.io/github/stars/lm-sys/RouteLLM?style=social&color=white)](https://github.com/lm-sys/RouteLLM/stargazers)  
     *LMSYS framework for cost-effective routing between strong and weak models.*  
     Reduces API costs by 2x+ with zero loss in benchmark scores (MT-Bench) by dynamically routing prompts between weak (cheap) and strong (frontier) models using matrix factorization and BERT classifiers.
 
-16. **[LoRAX](https://github.com/predibase/lorax)** [![GitHub stars](https://img.shields.io/github/stars/predibase/lorax?style=social&color=white)](https://github.com/predibase/lorax/stargazers)  
+16. **[LoRAX](https://github.com/predibase/lorax)** [![GitHub_Stars](https://img.shields.io/github/stars/predibase/lorax?style=social&color=white)](https://github.com/predibase/lorax/stargazers)  
     *Multi-LoRA inference server designed by Predibase.*  
     Serves hundreds of task-specialized fine-tuned LoRA adapters on a single GPU base model instance simultaneously, eliminating the prohibitive expense of dedicated model instances.
 
-17. **[Sriti Core](https://github.com/sriti-ai/sriti-core)** [![GitHub stars](https://img.shields.io/github/stars/sriti-ai/sriti-core?style=social&color=white)](https://github.com/sriti-ai/sriti-core/stargazers)  
+17. **[Sriti Core](https://github.com/sriti-ai/sriti-core)** [![GitHub_Stars](https://img.shields.io/github/stars/sriti-ai/sriti-core?style=social&color=white)](https://github.com/sriti-ai/sriti-core/stargazers)  
     *Intelligent, reliability-aware multi-tier cascade routing engine.*  
     Routes tasks across Tier 3 (local Ollama), Tier 2 (cloud open-weights), and Tier 1 (frontier models) using in-process ONNX classifiers, encrypted semantic caching, prompt compression, and automated quality gates.
 
-18. **[Chimeraforge](https://github.com/Sahil170595/Chimeraforge)** [![GitHub stars](https://img.shields.io/github/stars/Sahil170595/Chimeraforge?style=social&color=white)](https://github.com/Sahil170595/Chimeraforge/stargazers)  
+18. **[Chimeraforge](https://github.com/Sahil170595/Chimeraforge)** [![GitHub_Stars](https://img.shields.io/github/stars/Sahil170595/Chimeraforge?style=social&color=white)](https://github.com/Sahil170595/Chimeraforge/stargazers)  
     *Model selection, deployment planning, and benchmarking toolkit.*  
     Evaluates candidate models against specific hardware and budget constraints, benchmarking live throughput, TTFT, and quality metrics (BERTScore, ROUGE-L) to find optimal price-performance configurations.
 
@@ -203,7 +203,7 @@ Contributions are warmly welcomed! Help keep this directory current, accurate, a
 2. ✍️ **Add or update an entry** in `README.md`:
    - Follow the established table or list format.
    - For SaaS tools: provide specific starting prices, specific free tier limits, and company size/funding.
-   - For Open-Source tools: include official GitHub repo link and `style=social` star badge.
+   - For Open-Source tools: include official GitHub repo link and `style=social` Stars_Badge.
 3. 🧪 Ensure all links and markdown formatting render properly.
 4. 🚀 **Submit a Pull Request** with a concise description of your changes.
 
